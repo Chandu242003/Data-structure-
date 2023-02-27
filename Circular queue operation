@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+#define MAXSIZE 4
+void insert(char q[],int *r,int *c)
+{
+ char item;
+ if(*c==MAXSIZE)
+ {
+ printf("\n queue is full");
+ return;
+ }
+ else
+ {
+ printf("enter the character to be inserted:");
+ scanf(" %c",&item);
+ *r=(*r+1)% MAXSIZE;
+ q[*r]=item;
+ (*c)++;
+ }
+}
+void deleteq(char q[],int *f,int *c)
+{
+ char item;
