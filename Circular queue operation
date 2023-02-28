@@ -7,7 +7,7 @@ void insert(char q[],int *r,int *c)
  if(*c==MAXSIZE)
  {
  printf("\n queue is full");
- return;
+  return;
  }
  else
  {
