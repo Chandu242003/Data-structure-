@@ -66,7 +66,6 @@ void main()
  case 2 : deleteq(q,&f,&c);
  break;
 case 3 : display(q,f,&c);
-
  break;
  case 4 : exit(0);
  }
