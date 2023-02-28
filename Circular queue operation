@@ -31,6 +31,7 @@ if(*c==0)
  *f=(*f+1)%MAXSIZE;
  (*c)--;
 }
+
 void display(char q[],int f,int *c)
 {
  int i;
