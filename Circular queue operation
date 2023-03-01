@@ -18,6 +18,8 @@ void insert(char q[],int *r,int *c)
  (*c)++;
  }
 }
+}
+
 void deleteq(char q[],int *f,int *c)
 {
  char item;
