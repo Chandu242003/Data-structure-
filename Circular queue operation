@@ -67,7 +67,7 @@ void main()
  break;
 case 3 : display(q,f,&c);
  break;
- case 4 : exit(0);
+ case 4 :exit(0);
  }
  }
 }
