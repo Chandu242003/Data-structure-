@@ -11,6 +11,7 @@ void bfs(int u)
  printf(" %d",u);
  while(f<=r)
  {
+
  u=q[f++]; 
  for(v=0;v<n;v++)
 if(a[u][v]==1) 
