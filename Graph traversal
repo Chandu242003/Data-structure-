@@ -32,3 +32,13 @@ void dfs(int u)
  if(a[u][v] ==1 && s[v]==0)
  dfs(v);
  }
+int main()
+{ 
+ int u,i,j,ch;
+ while(1)
+ {
+ printf("\n1.Create a graph");
+ printf("\n2.Traversal using BFS");
+ printf("\n3.Traversal using DFS");
+ printf("\n4.Exit");
+ printf("\nEnter your choice :");
