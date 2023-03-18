@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 #include<stdlib.h>
 int a[10][10],n,s[10]={0};
 void bfs(int u)
@@ -65,8 +65,7 @@ break;
  printf("The nodes visted from %d:",u);
  dfs(u);
  break;
- case 4: _Exit(0);
+  case 4: _Exit(0);
 }
-
 }
 }
