@@ -29,7 +29,7 @@ void dfs(int u)
  s[u]=1;
  printf("%d ",u);
  for(v=0;v<n;v++)
- if(a[u][v] ==1 && s[v]==0)
+ if(a[u][v] ==1&&s[v]==0)
  dfs(v);
  }
 int main()
