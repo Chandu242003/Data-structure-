@@ -21,6 +21,7 @@ if(a[u][v]==1)
  q[++r]=v; 
  }
  }
+
  printf("\n");
  }
 void dfs(int u)
