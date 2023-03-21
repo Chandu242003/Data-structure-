@@ -4,6 +4,7 @@ int f(char);
 int g(char);
 void infixtopostfix(char in[],char post[])
 {
+
  int i=0,j=0,top=-1;
 char stk[20],sym;
 stk[++ top]='#';
