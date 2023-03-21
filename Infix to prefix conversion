@@ -62,4 +62,5 @@ int main()
 char infix[50],postfix[50];
 printf("enter the valid infix expression \n");
 scanf("%s",infix);
+
 infixtopostfix(infix,postfix);
