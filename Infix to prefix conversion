@@ -18,7 +18,6 @@ else
 stk[top--];
 }
 while(stk[top]!='#')
-
 {
 post[j++]=stk[top--];
 }
