@@ -64,3 +64,8 @@ char infix[50],postfix[50];
 printf("enter the valid infix expression \n");
 scanf("%s",infix);
 infixtopostfix(infix,postfix);
+printf("the given infix expression is %s and the equivalent postfix espression is 
+%s",infix,postfix);
+return 0;
+
+}
