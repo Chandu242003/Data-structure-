@@ -65,5 +65,4 @@ infixtopostfix(infix,postfix);
 printf("the given infix expression is %s and the equivalent postfix espression is 
 %s",infix,postfix);
 return 0;
-
 }
